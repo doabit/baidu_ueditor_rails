@@ -23,7 +23,7 @@ module BaiduUeditorRails
     end
 
     def cleanup_assets
-      manifest.each(/^tinymce\//) do |asset|
+      manifest.each(/^ueditor\//) do |asset|
         manifest.remove(asset) if index_asset?(asset)
 
         manifest.remove_digest(asset) do |src, dest|
