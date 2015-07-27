@@ -12,5 +12,5 @@
 //
 //= require ueditor/preinit
 //= require ueditor/ueditor.config
-//= require ueditor/ueditor.all.min
+//= require ueditor/ueditor.all
 
