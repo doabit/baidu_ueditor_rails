@@ -5,11 +5,11 @@ require "baidu_ueditor_rails/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "baidu_ueditor_rails"
+  s.name        = "baidu_ueditor_rails5"
   s.version     = BaiduUeditorRails::VERSION
   s.authors     = ["doabit"]
   s.email       = ["doinsist@gmail.com"]
-  s.homepage    = "https://github.com/baidu_ueditor_rails"
+  s.homepage    = "https://github.com/doabit/baidu_ueditor_rails"
   s.summary     = "Baidu ueditor for rails."
   s.description = "Baidu ueditor for rails."
 

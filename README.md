@@ -11,7 +11,7 @@
 
 Add this line to your application's Gemfile:
 
-    gem 'baidu_ueditor_rails', github: 'doabit/baidu_ueditor_rails'
+    gem 'baidu_ueditor_rails5', github: 'doabit/baidu_ueditor_rails'
 
 And then execute:
 
@@ -34,6 +34,12 @@ Then add codes in application.js
 //= require ueditor_custom_config
 ```
 
+config `routes.rb`
+
+```ruby
+  mount BaiduUeditorRails::Engine => "/ueditor"
+```
+
 ## Custom config
 
 In ueditor_custom_config.js, it looks like:
@@ -47,7 +53,9 @@ In ueditor_custom_config.js, it looks like:
       //      ['Source','Undo','Redo','Cleardoc','SearchReplace','InsertImage','WordImage','Bold','ForeColor','JustifyLeft',
       //      'JustifyCenter','JustifyRight','JustifyJustify','RemoveFormat','FormatMatch','AutoTypeSet','PastePlain',
       //      'FontSize','Preview','Link','FullScreen', 'PageBreak', 'InsertTable','Attachment','InsertVideo']
-      // ]
+      // ],
+      serverUrl: '/ueditor',
+      imageManagerUrlPrefix: ''
     };
     jQuery.extend(window.UEDITOR_CONFIG, window.CUSTOM_CONFIG);
 })();
