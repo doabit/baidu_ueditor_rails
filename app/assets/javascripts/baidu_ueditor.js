@@ -10,7 +10,7 @@
 // WARNING: THE FIRST BLANK LINE MARKS THE END OF WHAT'S TO BE PROCESSED, ANY BLANK LINE SHOULD
 // GO AFTER THE REQUIRES BELOW.
 //
-//= require ueditor/preinit
+//= require ueditor_custom/preinit
 //= require ueditor/ueditor.config
 //= require ueditor/ueditor.all
 
