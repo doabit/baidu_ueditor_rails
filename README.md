@@ -11,7 +11,7 @@
 
 Add this line to your application's Gemfile:
 
-    gem 'baidu_ueditor_rails5', github: 'doabit/baidu_ueditor_rails', reqiure: 'baidu_ueditor_rails'
+    gem 'baidu_ueditor_rails5', github: 'doabit/baidu_ueditor_rails', require: 'baidu_ueditor_rails'
 
 And then execute:
 

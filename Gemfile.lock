@@ -1,11 +1,11 @@
 PATH
   remote: .
   specs:
-    baidu_ueditor_rails5 (0.2.0)
+    baidu_ueditor_rails5 (0.3.0)
       rails (>= 3.1.1)
 
 GEM
-  remote: https://gems.ruby-china.com/
+  remote: https://rubygems.org/
   specs:
     actioncable (5.2.2)
       actionpack (= 5.2.2)
