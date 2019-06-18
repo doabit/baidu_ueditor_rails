@@ -32,7 +32,7 @@ module BaiduUeditorRails
 
   # All css and js files from ckeditor folder
   def self.assets
-    ass = Utils.select_assets('ueditor', 'vendor/assets/javascripts')
+    ass = Utils.select_assets('ueditor', 'app/assets/javascripts')
     @assets ||= ass
   end
 
